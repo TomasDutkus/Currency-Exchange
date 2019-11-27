@@ -48,7 +48,8 @@ public class Main {
                     quit = true;
                     break;
                 default:
-                    System.out.println("Invalid input");
+                    System.out.println("Invalid input\n");
+                    printMenu();
                     break;
             }
         }
