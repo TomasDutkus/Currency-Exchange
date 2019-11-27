@@ -3,7 +3,7 @@ package eisproject;
 import java.util.Scanner;
 
 /**
- * An application that shows currency exchange rates from bank of Lithuania
+ * An application to show currency exchange rates from bank of Lithuania
  *
  * @author Tomas
  */
