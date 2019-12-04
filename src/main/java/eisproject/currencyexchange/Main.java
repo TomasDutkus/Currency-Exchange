@@ -59,7 +59,7 @@ public class Main {
         buff.close();
         in.close();
 
-        //Writing data to a file
+        //Writing string to a file
         FileWriter fw = new java.io.FileWriter("Currency-Exchange.xml");
         fw.write(data);
         fw.close();
@@ -94,7 +94,7 @@ public class Main {
 
                 String str = element.getElementsByTagName("CcyAmt").item(1).getTextContent();
 
-                //Getting double out of string.
+                //Getting double out of string
                 Pattern pattern = Pattern.compile("(\\d+(?:\\.\\d+))");
                 Matcher matcher = pattern.matcher(str);
 
